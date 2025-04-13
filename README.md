@@ -1,10 +1,13 @@
-# 📊 Student Performance Prediction using Machine Learning
+#  Student Performance Prediction using Machine Learning
 
 This project builds a machine learning pipeline to predict student performance based on academic and demographic features. It includes data preprocessing, model training, evaluation, logging, and visualizations.
 
 ---
-
-## 🗂️ Project Structure
+By : Riya Shukla
+     Simran Dabrai
+     Shhreyash Pandey
+     
+##  Project Structure
 ```
 StudentPerformanceML/
 ├── data/                   # Raw and processed student data
@@ -22,7 +25,7 @@ StudentPerformanceML/
 ├── README.md               # Project overview and instructions
 └── requirements.txt        # Python dependencies
 ```
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. **Clone or Download** this repository.
 2. **Install Python 3.7+** if not already installed.
@@ -38,7 +41,7 @@ StudentPerformanceML/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 From PowerShell or Command Prompt in the project root:
 
@@ -53,7 +56,7 @@ This will:
 
 ---
 
-## 📌 Key Files
+##  Key Files
 
 - `scripts/preprocess.py`: Cleans and prepares data
 - `scripts/train_model.py`: Trains and saves the model
@@ -62,21 +65,21 @@ This will:
 
 ---
 
-## 📈 Output
+##  Output
 
 - ✅ Model saved in: `models/student_model.pkl`
 - 📊 Confusion Matrix: `visuals/confusion_matrix.png`
 
 ---
 
-## 🧠 ML Model Used
+##  ML Model Used
 
 - **Logistic Regression** (from `scikit-learn`)
 - Feature-target split from `processed_student_data.csv`
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```
 pandas
@@ -88,7 +91,7 @@ matplotlib
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - Built using Python and Scikit-Learn
 - Inspired by real-world educational data analysis tasks
