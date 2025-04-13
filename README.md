@@ -69,8 +69,8 @@ This will:
 
 ##  Output
 
-- ✅ Model saved in: `models/student_model.pkl`
-- 📊 Confusion Matrix: `visuals/confusion_matrix.png`
+-  Model saved in: `models/student_model.pkl`
+-  Confusion Matrix: `visuals/confusion_matrix.png`(will be saved once the code for evaluate.ipynb is executed)
 
 ---
 
