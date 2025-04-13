@@ -1,0 +1,15 @@
+2025-04-13 12:29:05,587 - INFO - Loading test data...
+2025-04-13 12:29:05,621 - INFO - Loading model...
+2025-04-13 12:29:05,648 - INFO - Making predictions and evaluating...
+2025-04-13 12:29:05,654 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.50      0.60      0.54      2928
+           1       0.50      0.40      0.44      2962
+
+    accuracy                           0.50      5890
+   macro avg       0.50      0.50      0.49      5890
+weighted avg       0.50      0.50      0.49      5890
+
+2025-04-13 12:29:05,898 - INFO - Confusion matrix saved to visuals/confusion_matrix.png
+2025-04-13 12:29:05,898 - INFO - Evaluation complete.
