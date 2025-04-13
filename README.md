@@ -93,9 +93,3 @@ matplotlib
 - Built using Python and Scikit-Learn
 - Inspired by real-world educational data analysis tasks
 
----
-
-## 📬 Contact
-
-Feel free to reach out if you have questions or suggestions!
-```
