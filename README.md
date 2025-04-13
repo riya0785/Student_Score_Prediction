@@ -12,20 +12,27 @@ Presented By :
 ##  Project Structure
 ```
 StudentPerformanceML/
-├── data/                   # Raw and processed student data
-│   ├── student_data.csv
-│   └── processed_student_data.csv
-├── scripts/                # Python scripts for each stage of the pipeline
+├── data/                      # Dataset and train-test splits
+│   ├── student_performance_prediction.csv
+│   ├── X_train.csv
+│   ├── X_test.csv
+│   ├── y_train.csv
+│   └── y_test.csv
+├── scripts/                   # Python scripts for pipeline stages
 │   ├── preprocess.py
 │   ├── train_model.py
 │   └── evaluate.py
-├── models/                 # Saved machine learning models
+├── models/                    # Trained model
 │   └── student_model.pkl
-├── visuals/                # Output visualizations (e.g., confusion matrix)
+├── visuals/                   # Evaluation visuals
 │   └── confusion_matrix.png
-├── run_pipeline.bat        # Windows batch script to run the full pipeline
-├── README.md               # Project overview and instructions
-└── requirements.txt        # Python dependencies
+├── logs/                      # Logs for each step
+│   ├── preprocess.log
+│   ├── train.log
+│   └── evaluation.log
+├── run_pipeline.bat           # Batch script to run full pipeline (Windows)
+├── requirements.txt           # Required Python packages
+└── README.md                  # Project documentation
 ```
 ##  Setup Instructions
 
