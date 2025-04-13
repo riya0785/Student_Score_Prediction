@@ -1,0 +1,27 @@
+🚀 Starting StudentPerformanceML pipeline...
+🔄 Running preprocess.py...
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+🔄 Running train_model.py...
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+🔄 Running evaluate.py...
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+📁 Adding changes to Git...
+warning: in the working copy of 'run_and_push.sh', LF will be replaced by CRLF the next time Git touches it
+📝 Committing changes...
+[main 3e7dde7] Automated commit from run_and_push.sh
+ 2 files changed, 30 insertions(+)
+ create mode 100644 run_and_push.sh
+ create mode 100644 run_log.txt
+🔄 Pulling latest from GitHub...
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+🚀 Pushing to GitHub...
+To https://github.com/riya0785/Student_Score_Prediction.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/riya0785/Student_Score_Prediction.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+✅ All done! Log saved to run_log.txt
