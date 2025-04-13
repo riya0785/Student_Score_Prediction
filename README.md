@@ -5,6 +5,7 @@ This project builds a machine learning pipeline to predict student performance b
 ---
 
 ## 🗂️ Project Structure
+```
 StudentPerformanceML/
 ├── data/                   # Raw and processed student data
 │   ├── student_data.csv
@@ -20,13 +21,13 @@ StudentPerformanceML/
 ├── run_pipeline.bat        # Windows batch script to run the full pipeline
 ├── README.md               # Project overview and instructions
 └── requirements.txt        # Python dependencies
-
+```
 ## ⚙️ Setup Instructions
 
 1. **Clone or Download** this repository.
 2. **Install Python 3.7+** if not already installed.
 3. (Optional but recommended) Create and activate a virtual environment:
-    ```bash
+    ```
     python -m venv venv
     .\venv\Scripts\activate      # Windows
     ```
