@@ -3,9 +3,11 @@
 This project builds a machine learning pipeline to predict student performance based on academic and demographic features. It includes data preprocessing, model training, evaluation, logging, and visualizations.
 
 ---
-By : Riya Shukla
-     Simran Dabrai
-     Shhreyash Pandey
+Presented By : 
+
+* Riya Shukla
+* Simran Dabrai
+* Shhreyash Pandey
      
 ##  Project Structure
 ```
