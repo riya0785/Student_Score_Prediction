@@ -6,7 +6,7 @@ This project builds a machine learning pipeline to predict student performance b
 Presented By : 
 
 * Riya Shukla
-* Simran Dabrai
+* Simrann Dabrai
 * Shhreyash Pandey
      
 ##  Project Structure
