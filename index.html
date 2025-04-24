@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Student Performance Predictor</title>
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <h1>🎓 Student Performance Predictor</h1>
     <form id="predictForm">
       <div class="form-group">
-        <label>Age</label>
-        <input type="number" name="age" required>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="1" step="1" required />
+        <!-- `step="1"` ensures whole numbers only -->
       </div>
       <div class="form-group">
-        <label>Attendance (%)</label>
-        <input type="number" name="attendance" required>
+        <label for="attendance">Attendance (%)</label>
+        <input type="number" id="attendance" name="attendance" step="0.1" min="0" max="100" required />
+        <!-- `step="0.1"` allows decimals; min/max gives additional validation -->
       </div>
       <div class="form-group">
-        <label>Study Hours per Week</label>
-        <input type="number" name="study" required>
+        <label for="study">Study Hours per Week</label>
+        <input type="number" id="study" name="study" step="0.1" min="0" required />
+        <!-- Allows fractional hours -->
       </div>
       <div class="form-group">
-        <label>Extracurricular Activities</label>
-        <select name="extra" required>
+        <label for="extra">Extracurricular Activities</label>
+        <select id="extra" name="extra" required>
           <option value="1">Yes</option>
           <option value="0">No</option>
         </select>
       </div>
       <div class="form-group">
-        <label>Parent Education Level</label>
-        <select name="parent" required>
+        <label for="parent">Parent Education Level</label>
+        <select id="parent" name="parent" required>
           <option value="0">Low</option>
           <option value="1">Medium</option>
           <option value="2">High</option>
@@ -45,7 +56,7 @@
   </div>
 
   <script>
-    document.getElementById("predictForm").addEventListener("submit", function(e) {
+    document.getElementById("predictForm").addEventListener("submit", function (e) {
       e.preventDefault();
       const formData = new FormData(e.target);
       const values = Array.from(formData.values()).map(Number);
