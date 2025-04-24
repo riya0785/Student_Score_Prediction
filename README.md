@@ -64,6 +64,26 @@ This will:
 - Evaluate the model and save a confusion matrix
 
 ---
+Using Linux
+
+git clone https://github.com/yourusername/StudentPerformanceML.git
+cd StudentPerformanceML
+----setup the environment----
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+chmod +x run_all.sh
+./run_all.sh
+---The script will:----
+
+Activate the virtual environment
+
+Run the preprocess.ipynb notebook
+
+Run the training.ipynb notebook
+
+Run the evaluate.ipynb notebook
+
 
 ##  Key Files
 
